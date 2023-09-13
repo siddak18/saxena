@@ -674,3 +674,13 @@ background: #64431C;
 .spe{
     display: flex;
 }
+
+@media (max-width:500px){
+    .heading10{
+        font-size: 2rem;
+    }
+    .info{
+        gap: 70px;
+        justify-content: center;
+    }
+}
