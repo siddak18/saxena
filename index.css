@@ -669,6 +669,13 @@ background: #64431C;
     .content{
         padding: 0;
     }
+    .heading10{
+        font-size: 2rem;
+    }
+    .info{
+        gap: 70px;
+        justify-content: center;
+    }
 }
 
 .spe{
@@ -677,10 +684,7 @@ background: #64431C;
 
 @media (max-width:500px){
     .heading10{
-        font-size: 2rem;
+        font-size: 1.4rem;
     }
-    .info{
-        gap: 70px;
-        justify-content: center;
-    }
+    
 }
