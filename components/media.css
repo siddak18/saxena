@@ -1,0 +1,211 @@
+@media (max-width:1200px){
+    .image{
+        display: none;
+    }
+    .let1{
+        background-image: url(../Assets/what/unsplash_AEaTUnvneik.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        color: white;
+        opacity: 1;
+    }
+    .let11{
+        color: white;
+    }
+    #hey{
+        color: white;
+    }
+    #remove{
+        display: none;
+    }
+    .p11{
+        color: white;
+    }
+    .flex1{
+        width: 80%;
+    }
+    .let1{
+        padding: 20px;
+    }
+}
+
+@media (max-width:1100px) {
+    .flex5{
+        flex-direction: column-reverse;
+    }
+    .greet{
+        padding: 30px 20px;
+    }
+    .flex51{
+        margin-left: 75px;
+    }
+    .lets{
+        margin-top: 10px;
+    }
+    .info2{
+        flex-direction: column;
+        gap: 5px;
+    }
+    footer{
+        flex-direction: column-reverse;
+        gap: 50px;
+        align-items: center;
+    }
+    .formrow{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .formfor>form>.formrow>div{
+        width: 100%;
+    }
+    .info{
+        width: 100%;
+    }
+    .form2{
+        width: 100%;
+    }
+    .paper1{
+        flex-direction: column;
+        gap: 60px;
+    }
+    .paper11{
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+    .paper22{
+        gap: 50px;
+    }
+    .chal,.chal2,.chal3,.chal4{
+        flex-direction: column;
+        align-items: center;
+    }
+    .flex2,.caro{
+        width: 90%;
+    }
+    .image2{
+        width: 100%;
+    }
+    #lastchal{
+        width: 90%;
+    }
+    #flex2{
+        width: 90%;
+    }
+    .chale6>div{
+        width: 90%;
+    }
+
+    #chal42,#chal41{
+        width: 90%;
+    }
+    .founder{
+        flex-direction: column-reverse;
+    }
+    .foundimg{
+        width: 70%;
+    }
+    .foundercontent>p{
+        width: 100%;
+        margin-left: 0;
+    }
+    #namehide{
+        display: flex;
+        margin-left: 0;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    .heading9{
+        display: none;
+    }
+    
+}
+
+@media (max-width:800px) {
+    .whatdo{
+        padding: 30px;
+    }
+    .aim{
+        padding: 30px;
+    }
+    .foundimg{
+        width: 80%;
+    }
+    .foundercontent{
+        width: 80%;
+    }
+}
+
+
+@media (max-width:610px){
+    .greet{
+        padding: 30px 10px;
+    }
+    #con{
+        font-size: 2rem;
+    }
+    .p51{
+        font-size: 0.8rem;
+    }
+    .formfor>form{
+        width: 80%
+    }
+    footer{
+        padding: 40px 
+    }
+    .one{
+        padding: 50px
+    }
+    .flex1{
+        width: 100%
+    }
+    .items{
+        gap: 20px;
+    }
+    .items-sub1{
+        flex-direction: column;
+        gap: 20px
+    }
+    .foundimg{
+        width: 90%
+    }
+    .foundercontent{
+        width: 90%;
+    }
+};
+
+@media (max-width:400px){
+    #con{
+        font-size: 1.6rem;
+    }
+    .p51{
+        font-size: 0.8rem;
+    }
+    .formfor>form{
+        width: 90%
+    }
+    .info{
+        display: flex;
+        }
+        .content{
+            width: 100%
+        }
+         #xx{
+      margin-left: 5px;
+         }
+     #aimremove{
+        display: none;
+     }
+     .foundimg{
+        width: 100%;
+     }
+     .foundercontent{
+        width: 100%;
+    }
+    #namehide{
+        font-size: 2rem;
+    }
+}
+
+
