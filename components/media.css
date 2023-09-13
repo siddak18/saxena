@@ -35,7 +35,8 @@
         flex-direction: column-reverse;
     }
     .greet{
-        padding: 30px 20px;
+        padding: 60px 20px;
+        height: fit-content;
     }
     .flex51{
         margin-left: 75px;
