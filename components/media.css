@@ -75,8 +75,9 @@
         flex-direction: column-reverse;
         gap: 50px;
     }
-    .paper22{
+    .paper22,.paper11{
         gap: 50px;
+        width: 100%;
     }
     .chal,.chal2,.chal3{
         flex-direction: column;
