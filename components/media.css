@@ -31,6 +31,7 @@
 }
 
 @media (max-width:1100px) {
+    
     .flex5{
         flex-direction: column-reverse;
     }
@@ -77,29 +78,54 @@
     .paper22{
         gap: 50px;
     }
-    .chal,.chal2,.chal3,.chal4{
+    .chal,.chal2,.chal3{
         flex-direction: column;
         align-items: center;
+        padding: 20px;
+    }
+    .chal4{
+        flex-direction: column;
+        padding: 20px;
+    }
+    #chal42,#chal41{
+        width: 100%;
+    }
+    #revert{
+        flex-direction: column-reverse;
+    }
+    .chal6{
+        padding: 20px;
+    }
+    .chal6>div{
+        width: 100%;
+    }
+    #lastchal{
+        width: 100%;
     }
     .flex2,.caro{
-        width: 90%;
+        width: 100%;
     }
     .image2{
         width: 100%;
     }
-    #lastchal{
-        width: 90%;
+    .main{
+        margin-top: 20px;
     }
-    #flex2{
-        width: 90%;
+    .flex2{
+        width: 100%;
     }
     .chale6>div{
         width: 90%;
     }
-
-    #chal42,#chal41{
-        width: 90%;
+    .chal2{
+        flex-direction: column-reverse;
     }
+    #done{
+        flex-direction: column;
+    }
+    /* #chal42,#chal41{
+        width: 90%;
+    } */
     .founder{
         flex-direction: column-reverse;
     }
@@ -174,7 +200,36 @@
     .foundercontent{
         width: 90%;
     }
+    #bt{
+        display: none;
+    }
+    .let11,.p11,#hey,.but3{
+        padding-left: 10px
+    }
+    .but3{
+        justify-content: left;
+    }
+    .chal{
+        padding: 20px;
+    }
+    .caro{
+        width: 100%
+    }
+    .caro>.arrows>svg{
+        height: 45px;
+        width: 45px;
+    }
+    .caro>.arrows2>svg{
+        height: 45px;
+        width: 45px;
+    }
+    .dot>.dots{
+        width: 10px;
+        height: 10px;
+    }
 };
+
+
 
 @media (max-width:500px){
     .heading10{

@@ -682,6 +682,19 @@ background: #64431C;
     display: flex;
 }
 
+#zoomh,#ragh{
+    display: none;
+}
+
+@media (max-width:1100px) {
+    #zoomh,#ragh{
+        display: none;
+    }
+    #zooms,#rahs{
+        display: flex;
+    }
+}
+
 @media (max-width:500px){
     .heading10{
         font-size: 1.4rem;
