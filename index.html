@@ -290,12 +290,53 @@
               Elevating Local <br> Craftsmanship
             </div>
             <div class="buttons">
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+              <div class="twobut">
+              <button class="join" id="opendia" style="padding: 5px;">
                 Open Dialog
             </button>
-               <button class="donate2">Donate</button>
-               <button class="join" style="height: 40px;">Collaborate with us</button>
+               <button class="join" id="hidetwo" style="height: 40px;">Collaborate with us</button>
+              </div>
+              <button class="donate2" id="donatedialog">Donate</button>
+              <button class="join" id="hidetwo2" style="height: 40px;">Collaborate with us</button>
             </div>
+        </div>
+        <div class="dialogstuff" id="get">
+          <div class="heading66">Join us as a Volunteer</div>
+          <section class="dialogform">
+            <div class="crossdialog" id="closedialog">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                <rect width="32" height="32" rx="4" fill="#1D2130"/>
+                <path d="M10 22L22 10M10 10L22 22" stroke="white" stroke-width="1.5"/>
+                </svg>
+            </div>
+            <form class="fg">
+              <div class="formrow"> 
+              <div>
+                <p>First name</p>
+                <input type="text" placeholder="First name">
+              </div>
+              <div>
+                <p>Last name</p>
+                <input type="text" placeholder="Last name">
+              </div>
+            </div>
+            <div class="formrow"> 
+              <div>
+                <p>Email</p>
+                <input type="email" placeholder="Email">
+              </div>
+              <div>
+                <p>subject</p>
+                <input type="text" placeholder="Subject">
+              </div>
+            </div>
+            <p class="textp">message</p>
+             <textarea class="textit" id="exampleFormControlTextarea1" rows="5" placeholder="message"></textarea>
+            <div class="but2">
+              <button type="submit"  class="butby but2">Send Message</button>
+            </div>
+            </form>
+      </section>
         </div>
       </section>
       <footer class="spe">
@@ -336,6 +377,7 @@
           </form>
         </div>
       </footer>
+      
       <script src="index.js"></script>
 </body>
 </html>

@@ -56,3 +56,20 @@ hide22.addEventListener('click',()=>{
     hide3.style.display="flex";
     hide2.style.display="flex";
 });
+
+
+
+const dialog=document.getElementById("opendia");
+const openit=document.getElementById("get");
+dialog.addEventListener('click',()=>{
+    if(openit.style.display==='none'){
+        openit.style.display="flex";
+    }else{
+        openit.style.display="none";
+    }
+});
+
+const close=document.getElementById("closedialog");
+close.addEventListener('click',()=>{
+    openit.style.display="none";
+})
