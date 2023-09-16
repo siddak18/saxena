@@ -257,29 +257,29 @@
                 <path d="M10 22L22 10M10 10L22 22" stroke="white" stroke-width="1.5"/>
                 </svg>
             </div>
-            <form class="fg">
+            <form class="fg" method="post" name="doneit">
               <div class="formrow"> 
               <div>
                 <p>First name</p>
-                <input type="text" placeholder="First name">
+                <input name="firstname" type="text" placeholder="First name">
               </div>
               <div>
                 <p>Last name</p>
-                <input type="text" placeholder="Last name">
+                <input name="lastname" type="text" placeholder="Last name">
               </div>
             </div>
             <div class="formrow"> 
               <div>
                 <p>Email</p>
-                <input type="email" placeholder="Email">
+                <input name="email" type="email" placeholder="Email">
               </div>
               <div>
                 <p>subject</p>
-                <input type="text" placeholder="Subject">
+                <input name="subject" type="text" placeholder="Subject">
               </div>
             </div>
             <p class="textp">message</p>
-             <textarea class="textit" id="exampleFormControlTextarea1" rows="5" placeholder="message"></textarea>
+             <textarea name="message" class="textit" id="exampleFormControlTextarea1" rows="5" placeholder="message"></textarea>
             <div class="but2">
               <button type="submit"  class="butby but2">Send Message</button>
             </div>
@@ -319,8 +319,8 @@
           <div class="heading10">
             Subscribe to get latest <br> updates
           </div>
-          <form action="" class="form3">
-            <input type="text" class="subsin" placeholder="your email">
+          <form action="" class="form3" name="form222">
+            <input type="text" class="subsin" name="email" placeholder="your email">
             <button type="submit" class="subsbu">Subscribe</button>
           </form>
         </div>
@@ -329,5 +329,6 @@
       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
       <script src="index.js"></script>
+      <script src="../fromdata.js"></script>
 </body>
 </html>
