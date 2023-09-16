@@ -861,14 +861,14 @@ line-height: 140%;
 }
 
 @media (max-width:1250px) {
-    .boot{
+   .move{
+    display: none;
+   }
+    #hide4,#hide5,#hide6{
         display: flex;
     }
     .noncarousel{
-        display: none;
-    }
-    .boot{
-        display: flex;
+        flex-direction: column;
     }
     .carousel-inner .carousel-item {
         width: 100%;
@@ -876,11 +876,15 @@ line-height: 140%;
     }
     .carda{
         align-self: center;
-        width: 100%;
+        width: 40%;
     }
 }
 
-
+@media (max-width:900px) {
+    .carda{
+        width: 70%;
+    }
+}
 @media (max-width:600px) {
     .stories{
         padding: 5px;
@@ -938,6 +942,12 @@ line-height: 140%;
      .form1{
         width: 100%;
      }
+}
+
+@media (max-width:425px){
+    .carda{
+        width: 90%;
+    }
 }
 
 
