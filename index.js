@@ -61,15 +61,52 @@ hide22.addEventListener('click',()=>{
 
 const dialog=document.getElementById("opendia");
 const openit=document.getElementById("get");
+const donate=document.getElementById("donateit");
+const collab=document.getElementById("collab");
+const volent=document.getElementById("volent");
+const hidetwo=document.getElementById("donatedialog");
+const hidetwo2=document.getElementById("hidetwo2");
+const det=document.getElementById("det");
 dialog.addEventListener('click',()=>{
     if(openit.style.display==='none'){
         openit.style.display="flex";
     }else{
         openit.style.display="none";
     }
+    collab.style.display="none";
+    volent.style.display="flex";
+    donate.style.display="none";
+    det.style.display="none";
 });
+hidetwo.addEventListener('click',()=>{
+    if(openit.style.display==='none'){
+        openit.style.display="flex";
+    }else{
+        openit.style.display="none";
+    }
+    collab.style.display="none";
+    volent.style.display="none";
+    donate.style.display="flex";
+    det.style.display="block";
+});
+hidetwo2.addEventListener('click',()=>{
+    if(openit.style.display==='none'){
+        openit.style.display="flex";
+    }else{
+        openit.style.display="none";
+    }
+    collab.style.display="flex";
+    volent.style.display="none";
+    donate.style.display="none";
+    det.style.display="none";
+});
+
 
 const close=document.getElementById("closedialog");
 close.addEventListener('click',()=>{
     openit.style.display="none";
-})
+    collab.style.display="none";
+    volent.style.display="none";
+    donate.style.dialog="none";
+    det.style.display="none";
+});
