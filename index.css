@@ -6,15 +6,20 @@
 }
 
 
-
-
+button>a{
+    text-decoration: none;
+    color: inherit;
+}
+a{
+   text-decoration: none;
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto';
     background-size: 100% 100%;
- 
+     scroll-behavior: smooth;
 }
 
 nav{
@@ -35,9 +40,6 @@ nav{
     outline: none;
 }
 
-.donatebut:hover{
-    background-color: rgba(0, 0, 0, 0.648);
-}
 
 .home{
     width: 100%;
@@ -88,10 +90,7 @@ nav{
     padding: 5px;
 }
 
-.join:hover{
-    transform: scale(1.02);
-    background-color: rgba(242, 200, 76, 0.776);
-}
+
 
 .aim{
     width: 100%;
@@ -699,21 +698,7 @@ background: #64431C;
     display: none;
 }
 
-@media (max-width:1100px) {
-    #zoomh,#ragh{
-        display: none;
-    }
-    #zooms,#rahs{
-        display: flex;
-    }
-}
 
-@media (max-width:500px){
-    .heading10{
-        font-size: 1.4rem;
-    }
-    
-}
 
 
 
@@ -1011,4 +996,23 @@ line-height: 140%;
     position: absolute;
     top: 5px;
     right: 5px;
+}
+
+@media (max-width:1100px) {
+    #zoomh,#ragh{
+        display: none;
+    }
+    #zooms,#rahs{
+        display: flex;
+    }
+    .dialogform>.fg>.formrow>div{
+        width: 100%;
+    }
+}
+
+@media (max-width:500px){
+    .heading10{
+        font-size: 1.4rem;
+    }
+    
 }
