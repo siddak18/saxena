@@ -15,6 +15,14 @@ const chal51=document.getElementById("chal51");
 const chal52=document.getElementById("chal52");
 const chal61=document.getElementById("chal61");
 const chal62=document.getElementById("chal62");
+const chal71=document.getElementById("chal71");
+const chal72=document.getElementById("chal72");
+const chal81=document.getElementById("chal81");
+const chal82=document.getElementById("chal82");
+const chal91=document.getElementById("chal91");
+const chal92=document.getElementById("chal92");
+const chal01=document.getElementById("chal01");
+const chal02=document.getElementById("chal02");
 
 onear.addEventListener('click',()=>{
     caro2.style.display="flex";
@@ -89,6 +97,37 @@ chal62.addEventListener('click',()=>{
     chal61.style.display="flex";
     chal62.style.display="none";
 });
+
+chal71.addEventListener('click',()=>{
+    chal71.style.display="none";
+    chal72.style.display="flex";
+});
+
+chal72.addEventListener('click',()=>{
+    chal71.style.display="flex";
+    chal72.style.display="none";
+});
+
+chal81.addEventListener('click',()=>{
+    chal81.style.display="none";
+    chal82.style.display="flex";
+});
+
+chal82.addEventListener('click',()=>{
+    chal81.style.display="flex";
+    chal82.style.display="none";
+});
+
+chal91.addEventListener('click',()=>{
+    chal91.style.display="none";
+    chal92.style.display="flex";
+});
+
+chal92.addEventListener('click',()=>{
+    chal91.style.display="flex";
+    chal92.style.display="none";
+});
+
 
 
 

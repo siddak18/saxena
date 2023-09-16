@@ -30,6 +30,10 @@
     }
 }
 
+.caro{
+    display: flex;
+    flex-direction: column;
+}
 @media (max-width:1100px) {
     
     .flex5{
@@ -204,12 +208,10 @@
     #bt{
         display: none;
     }
-    .let11,.p11,#hey,.but3{
-        padding-left: 10px
+    .let11,.p11,#hey{
+        padding-left: 10px;
     }
-    .but3{
-        justify-content: left;
-    }
+    
     .chal{
         padding: 20px;
     }

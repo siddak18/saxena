@@ -1,17 +1,19 @@
 
-const form1 = document.forms['doneit']
-form1.addEventListener('submit', e => {
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbyXXD1bRojXDyBYUhpobjcMO0TKA00FZpPZkrHsFX6XqQo0Vt41DNr_NGll4gehhfQ_/exec'
+// const form1 = document.forms['doneit']
+// const formm=document.getElementsByTagName("form");
 
-    alert("Thank you! your form is submitted successfully." );
+// form1.addEventListener('submit', e => {
+  
+//   e.preventDefault();
+//     const scriptURL = 'https://script.google.com/macros/s/AKfycbydjCAXGVxpryz1dSVMyjjlqKEVLVpQ66-bpyn0K4ITIUcphCJIO1UeZdRg6juapM7WGA/exec'
 
-  e.preventDefault()
-  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-  .then(response => alert("Thank you! your form is submitted successfully." ))
-  .then(() => { window.location.reload(); })
-  .catch(error => console.error('Error!', error.message))
-});
-
+    
+//   fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+//   .then(response => alert("Thank you! your form is submitted successfully." ))
+//   .then(() => { window.location.reload(); })
+//   .catch(error => console.error('Error!', error.message))
+// });
+console.log("loaded");
 const form = document.forms['form222']
 
 form.addEventListener('submit', e => {

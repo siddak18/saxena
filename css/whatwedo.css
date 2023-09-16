@@ -5,6 +5,11 @@
     font-family: 'Roboto';
 }
 
+a{
+    color: white;
+    text-decoration: none;
+}
+
 .let1{
     padding:  50px 80px 50px 100px;
     width: 100%;
@@ -30,7 +35,7 @@
 
 .but3{
     display: flex;
-    justify-content: center;
+    margin-left: 72px;
     gap: 30px;
     
 }

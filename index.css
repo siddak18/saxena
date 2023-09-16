@@ -688,6 +688,9 @@ background: #64431C;
         gap: 70px;
         justify-content: center;
     }
+    #slee{
+        width: 300px;
+    }
 }
 
 .spe{
@@ -1014,5 +1017,12 @@ line-height: 140%;
     .heading10{
         font-size: 1.4rem;
     }
+    .but3{
+        margin-left: 0;
+    }
     
+}
+
+#chal02,#chal92,#chal82,#chal72{
+    display: none;
 }
