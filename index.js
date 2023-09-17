@@ -57,7 +57,7 @@ hide22.addEventListener('click',()=>{
     hide2.style.display="flex";
 });
 
-
+const bug=document.getElementById("hidetwo");
 
 const dialog=document.getElementById("opendia");
 const openit=document.getElementById("get");
@@ -101,7 +101,17 @@ hidetwo2.addEventListener('click',()=>{
     det.style.display="none";
 });
 
-
+bug.addEventListener('click',()=>{
+    if(openit.style.display==='none'){
+        openit.style.display="flex";
+    }else{
+        openit.style.display="none";
+    }
+    collab.style.display="flex";
+    volent.style.display="none";
+    donate.style.display="none";
+    det.style.display="none";
+});
 const close=document.getElementById("closedialog");
 close.addEventListener('click',()=>{
     openit.style.display="none";
