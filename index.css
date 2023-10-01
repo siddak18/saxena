@@ -20,6 +20,7 @@ a{
     font-family: 'Roboto';
     background-size: 100% 100%;
      scroll-behavior: smooth;
+     text-align: justify;
 }
 
 nav{
@@ -619,6 +620,9 @@ border: 1px solid rgba(235, 240, 249, 0.30);
 font-weight: 700;
 }
 
+.edit{
+    text-align: justify;
+}
 .manage{
     width: 100%;
     height: 100%;
@@ -692,6 +696,7 @@ background: #64431C;
         width: 300px;
     }
 }
+
 
 .spe{
     display: flex;
